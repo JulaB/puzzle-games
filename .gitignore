@@ -1,5 +1,8 @@
 node_modules/
 .vscode
+lerna-debug.log
+packages/*/lib
+.idea
 .pnp.*
 .yarn/*
 !.yarn/patches

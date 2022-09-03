@@ -1045,23 +1045,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/cli@npm:14.6.3":
-  version: 14.6.3
-  resolution: "@nrwl/cli@npm:14.6.3"
+"@nrwl/cli@npm:14.6.4":
+  version: 14.6.4
+  resolution: "@nrwl/cli@npm:14.6.4"
   dependencies:
-    nx: 14.6.3
-  checksum: 6d1a6b40324d10c6c45e069b9732d3b74388d57eefa7cf00ef11fe1bd6b3a085191980cb928fd75cef5dfb84c4cf42b6de37f4f9e801229de9f93b11c93f0088
+    nx: 14.6.4
+  checksum: a6cf1a746f0eba6eec62f9fe41ae5810c11796d7db1d6a0e685a034b81aeba1deecedffe351727d1ae9f090bccb37f516e716c909ec08e925a54be447bea3389
   languageName: node
   linkType: hard
 
-"@nrwl/tao@npm:14.6.3":
-  version: 14.6.3
-  resolution: "@nrwl/tao@npm:14.6.3"
+"@nrwl/tao@npm:14.6.4":
+  version: 14.6.4
+  resolution: "@nrwl/tao@npm:14.6.4"
   dependencies:
-    nx: 14.6.3
+    nx: 14.6.4
   bin:
     tao: index.js
-  checksum: fdead3c743b5fa12e8ff327d20f6fd60801b49d7c9ba11a484b1a097f9a467c201c3957d87cdd63dbd8e7f6201b6597062a2a0c6878ecccc1ce4fc1bfe1a76a3
+  checksum: 1dd0a49cc3e90f0e5488a74334c707b960eab6d63502c6afba676eca73af186e2ab3178b4a5d9ad73537819dbcf622af95bfdd571d37b8d6e5836efcbcc35843
   languageName: node
   linkType: hard
 
@@ -1112,9 +1112,9 @@ __metadata:
   linkType: hard
 
 "@octokit/openapi-types@npm:^13.6.0":
-  version: 13.6.0
-  resolution: "@octokit/openapi-types@npm:13.6.0"
-  checksum: 2abf858a24888dcede28fe9a3fe3d24fba468d90daf4e22d1238d2419fe69aa8ee8f4aad163a73870038497b3a1b77b9b16172f649fb2cd767dd11fb3d09d44d
+  version: 13.7.0
+  resolution: "@octokit/openapi-types@npm:13.7.0"
+  checksum: ca872f64eb9967c66dea08c9e60343e1ee7f93839d86f5ef57b9d58ae19af301a49bac548a1e09c4ee53686b34b8b84eb61d5356faf632c8c2fbd89d0e32a954
   languageName: node
   linkType: hard
 
@@ -1146,14 +1146,14 @@ __metadata:
   linkType: hard
 
 "@octokit/plugin-rest-endpoint-methods@npm:^6.0.0":
-  version: 6.4.0
-  resolution: "@octokit/plugin-rest-endpoint-methods@npm:6.4.0"
+  version: 6.4.1
+  resolution: "@octokit/plugin-rest-endpoint-methods@npm:6.4.1"
   dependencies:
     "@octokit/types": ^7.2.0
     deprecation: ^2.3.1
   peerDependencies:
     "@octokit/core": ">=3"
-  checksum: 23274c9d307ec198192bc96fc340e75d29156df338ea8184a20673298d90e435fcc22cf09434943666f0d10ff5b4f2cd2caa778d0fb17906f319ff2373c61dbf
+  checksum: 5c81df3a54f7916d088cfdb2ab71ca4dadcbfa5712d728e52ec1e9d585ed79251872a1b61824fae84759af45a763940867391fa075ef1b2f40a974a058eb87ca
   languageName: node
   linkType: hard
 
@@ -1239,6 +1239,13 @@ __metadata:
   version: 1.2.2
   resolution: "@types/minimist@npm:1.2.2"
   checksum: b8da83c66eb4aac0440e64674b19564d9d86c80ae273144db9681e5eeff66f238ade9515f5006ffbfa955ceff8b89ad2bd8ec577d7caee74ba101431fb07045d
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.7.14":
+  version: 18.7.14
+  resolution: "@types/node@npm:18.7.14"
+  checksum: 99cf28ff854100158de875cca23c7acc3cc01dfee526a52b90b7f36767c821bcbaf2be0a98a70f06f3b78f3c60639168ff949d725b61e2e124f9f71f1fb8043d
   languageName: node
   linkType: hard
 
@@ -3891,12 +3898,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nx@npm:14.6.3, nx@npm:>=14.6.1 < 16":
-  version: 14.6.3
-  resolution: "nx@npm:14.6.3"
+"nx@npm:14.6.4, nx@npm:>=14.6.1 < 16":
+  version: 14.6.4
+  resolution: "nx@npm:14.6.4"
   dependencies:
-    "@nrwl/cli": 14.6.3
-    "@nrwl/tao": 14.6.3
+    "@nrwl/cli": 14.6.4
+    "@nrwl/tao": 14.6.4
     "@parcel/watcher": 2.0.4
     chalk: 4.1.0
     chokidar: ^3.5.1
@@ -3935,7 +3942,7 @@ __metadata:
       optional: true
   bin:
     nx: bin/nx.js
-  checksum: e8cd884c7ee9d086eb85eb6bf10c939ea88466a1d070495e9712579e569664a0a272a7ea6809ca2903d671c10ce91c9188d26fe00754d1c54233aa12c401fa10
+  checksum: 5d3c692e71a2b09547850460eb99aaf11d1830a30e1fbbf6694f5828ecc5188339af39f9c5a8efd78d566901f0c382c09797b891cfbab22be7c788a01b08521e
   languageName: node
   linkType: hard
 
@@ -4368,7 +4375,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "puzzle-games@workspace:."
   dependencies:
+    "@types/node": ^18.7.14
     lerna: ^5.5.0
+    typescript: ^4.8.2
   languageName: unknown
   linkType: soft
 
@@ -5160,7 +5169,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^3 || ^4":
+"typescript@npm:^3 || ^4, typescript@npm:^4.8.2":
   version: 4.8.2
   resolution: "typescript@npm:4.8.2"
   bin:
@@ -5170,7 +5179,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3 || ^4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^3 || ^4#~builtin<compat/typescript>, typescript@patch:typescript@^4.8.2#~builtin<compat/typescript>":
   version: 4.8.2
   resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"
   bin:
